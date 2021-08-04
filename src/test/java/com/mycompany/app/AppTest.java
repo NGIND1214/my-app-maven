@@ -9,7 +9,7 @@ public class AppTest
     @Test
     public void addTest() {
 		App myCalc1 = new App();
-		Assert.assertEquals(20, myCalc1.addNumbers(5, 5));
+		Assert.assertEquals(10, myCalc1.addNumbers(5, 5));
     }
 	
     @Test
