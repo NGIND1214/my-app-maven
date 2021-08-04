@@ -6,7 +6,7 @@
 
   <groupId>com.mycompany.app</groupId>
   <artifactId>my-app</artifactId>
-  <version>1.0</version>
+  <version>2.0</version>
 
   <name>my-app</name>
   <!-- FIXME change it to the project's website -->
@@ -44,11 +44,11 @@
             <name>Internal Releases</name>
 			      <url>http://3.237.242.183:8081/repository/My-app-maven/</url>
         </repository>
-	      <!-- <snapshotRepository>
+	      <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://54.144.148.15:8081/repository/My-App/</url>
-	      </snapshotRepository>  -->
+	      </snapshotRepository> 
   </distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
