@@ -20,8 +20,8 @@
     <jacoco.version>0.8.3</jacoco.version>
     <sonar.java.coveragePlugin>jacoco</sonar.java.coveragePlugin>
     <sonar.dynamicAnalysis>reuseReports</sonar.dynamicAnalysis>
-    <sonar.jacoco.reportPath>E:/DevOps/Projects/my-app-maven/target/jacoco.exec</sonar.jacoco.reportPath>
-	<sonar.coverage.jacoco.xmlReportPaths>E:/DevOps/Projects/my-app-maven/target/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
+    <sonar.jacoco.reportPath>F:/Data/sty/DevOps/Projects/my-app-maven/target/jacoco.exec</sonar.jacoco.reportPath>
+	  <sonar.coverage.jacoco.xmlReportPaths>F:/Data/sty/DevOps/Projects/my-app-maven/target/jacoco.xml</sonar.coverage.jacoco.xmlReportPaths>
     <sonar.language>java</sonar.language>
   </properties>
 
@@ -42,13 +42,13 @@
         <repository>
             <id>deployment</id>
             <name>Internal Releases</name>
-			<url>http://34.224.17.48:8081/repository/My-App/</url>
+			      <url>http://3.237.242.183:8081/repository/My-app-maven/</url>
         </repository>
-	    <snapshotRepository>
+	      <!-- <snapshotRepository>
             <id>deployment</id>
             <name>Internal Snapshot Releases</name>
             <url>http://54.144.148.15:8081/repository/My-App/</url>
-	</snapshotRepository> 
+	      </snapshotRepository>  -->
   </distributionManagement>
   <build>
     <pluginManagement><!-- lock down plugins versions to avoid using Maven defaults (may be moved to parent pom) -->
